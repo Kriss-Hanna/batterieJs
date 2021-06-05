@@ -1,7 +1,6 @@
 const keys = Array.from(document.querySelectorAll(".key"))
 
 function playSound (e) {
-  //console.log(e.keyCode)
 
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
